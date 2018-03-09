@@ -1,8 +1,9 @@
-# what happens if you run this whole cel right now? which line's output is displayed?
+# what happens if you run this whole cell right now? which line's output is displayed?
 surveys_df.head()
-# cursor at the end of theline nad press ctrl + shift + minus
+# place cursor at the end of the line and press ctrl + shift + minus to split
+# or go to the Edit menu and select split cell
 surveys_df.tail()
 surveys_df.columns
 surveys_df.shape
-surveys_df.month
-surveys_df.month.head()
+surveys_df.plot_id # make it only output the first 10
+surveys_df['species_id']
